@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Accounts>
+  <student id="p15-6058">
+    <name>haider</name>
+    <Rollno>p14-55551</Rollno>
+    <email>tnaf@gmail.com</email>
+    <campus>Islamabad</campus>
+    <dept>Accouting</dept>
+    <admdate>2018-12-15</admdate>
+    <adm_status>Cancelled</adm_status>
+    <progress_status>G</progress_status>
+    <GAT>
+      <score>312</score>
+      <totalMarks>121</totalMarks>
+      <testyear>2018-12-11</testyear>
+      <testExpire>2018-12-28</testExpire>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2work.jpg"/>
+      </transcript>
+    </GAT>
+    <ssc>
+      <marks>212</marks>
+      <totalMarks>23</totalMarks>
+      <studyplace>kmk</studyplace>
+      <testyear>2018-12-10</testyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2German.png"/>
+      </transcript>
+    </ssc>
+    <fsc>
+      <marks>12</marks>
+      <totalMarks>31</totalMarks>
+      <studyplace>kust</studyplace>
+      <testyear>2018-12-22</testyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </transcript>
+    </fsc>
+    <BSC>
+      <GPA>23</GPA>
+      <totalGPA/>
+      <studyplace>netherlan</studyplace>
+      <completionyear>2018-12-15</completionyear>
+      <transcript>
+        <img src=""/>
+      </transcript>
+      <degree>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </degree>
+      <HEC_equivalence>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </HEC_equivalence>
+    </BSC>
+    <MSC>
+      <GPA>1121</GPA>
+      <totalGPA>232</totalGPA>
+      <studyplace>fast</studyplace>
+      <completionyear>2018-12-22</completionyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </transcript>
+      <degree>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </degree>
+      <HEC_equivalence>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </HEC_equivalence>
+    </MSC>
+    <photograph>
+      <img src="photo\id.jpg"/>
+    </photograph>
+    <phone>1212</phone>
+    <CNIC>
+		14301-9088178-1
+	 </CNIC>
+    <supervisor>afd</supervisor>
+    <funding>Fellowship</funding>
+    <HEC_pincode>1212</HEC_pincode>
+  </student>
+  <student id="p15-6059@nu.edu.pk">
+    <name>haider</name>
+    <Rollno>p14-55551</Rollno>
+    <email>tnaf@gmail.com</email>
+    <campus>Islamabad</campus>
+    <dept>Accouting</dept>
+    <admdate>2018-12-15</admdate>
+    <adm_status>Cancelled</adm_status>
+    <progress_status>G</progress_status>
+    <GAT>
+      <score>312</score>
+      <totalMarks>121</totalMarks>
+      <testyear>2018-12-11</testyear>
+      <testExpire>2018-12-28</testExpire>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2work.jpg"/>
+      </transcript>
+    </GAT>
+    <ssc>
+      <marks>212</marks>
+      <totalMarks>23</totalMarks>
+      <studyplace>kmk</studyplace>
+      <testyear>2018-12-10</testyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2German.png"/>
+      </transcript>
+    </ssc>
+    <fsc>
+      <marks>12</marks>
+      <totalMarks>31</totalMarks>
+      <studyplace>kust</studyplace>
+      <testyear>2018-12-22</testyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </transcript>
+    </fsc>
+    <BSC>
+      <GPA>23</GPA>
+      <totalGPA/>
+      <studyplace>netherlan</studyplace>
+      <completionyear>2018-12-15</completionyear>
+      <transcript>
+        <img src=""/>
+      </transcript>
+      <degree>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </degree>
+      <HEC_equivalence>
+        <img src="C:\wamp64\www\webProject/2q1.jpg"/>
+      </HEC_equivalence>
+    </BSC>
+    <MSC>
+      <GPA>1121</GPA>
+      <totalGPA>232</totalGPA>
+      <studyplace>fast</studyplace>
+      <completionyear>2018-12-22</completionyear>
+      <transcript>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </transcript>
+      <degree>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </degree>
+      <HEC_equivalence>
+        <img src="C:\wamp64\www\webProject/2q2.jpg"/>
+      </HEC_equivalence>
+    </MSC>
+    <photograph>
+      <img src="photo\id.jpg"/>
+    </photograph>
+    <phone>1212</phone>
+    <CNIC>
+		14301-9088178-1
+	 </CNIC>
+    <supervisor>afd</supervisor>
+    <funding>Fellowship</funding>
+    <HEC_pincode>1212</HEC_pincode>
+  </student>
+  
+
+</Accounts>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Upload synopsis and thesis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+      <link rel="stylesheet" href="css/style.css">
+      
+     
+</head>
+
+<body>
+
+
+
+
+  <div class="info">
+  <h1>Upload Synopsis and thesis</h1>
+
+</div>
+<form class="steps" accept-charset="UTF-8" enctype="multipart/form-data" novalidate="" method="post" action="_synopsis_xml.php">
+
+
+
+    <!-- Basic INFORMATION FIELD SET -->
+  <fieldset>
+    <h2 class="fs-title">Upload your Documents</h2>
+    <h3 class="fs-subtitle">Synopsis and thesis</h3>
+    <!-- Begin What's Your First Name Field -->
+
+        <div class="hs_firstname field hs-form-field">
+
+          <label for="rollno">Roll No *</label>
+
+          <input id="rollno" name="rollno" required="" type="text" value="" placeholder="" data-rule-required="" data-msg-required="Please include your first name" >
+          <span class="error1" style="display: none;">
+              <i class="error-log fa fa-exclamation-triangle"></i>
+          </span>
+
+        </div>
+
+      <div class="hs_firstname field hs-form-field" >
+         <label for="deptdropdown"> Select Department *</label>
+         <select id="deptdropdown" name="deptdropdown" class="area">
+                     <option value="CS">CS</option>
+                     <option value="EE">EE</option>
+                     <option value="Management of Sciences">Management of Sciences</option>
+                     <option value="Accouting">Accouting</option>
+
+                  </select>
+
+        </div>
+
+
+      <div class="hs_firstname field hs-form-field" >
+         <label for="statusdropdown"> Progress Status *</label>
+         <select id="statusdropdown" name="statusdropdown" class="area">
+
+                     <option value="H">H</option>
+                     <option value="G">G</option>
+                     <option value="F">F</option>
+                     <option value="E">E</option>
+                     <option value="D">D</option>
+                     <option value="C">C</option>
+                     <option value="B">B</option>
+                      <option value="A">A</option>
+
+                  </select>
+
+        </div>
+
+          <div class="form-group" id='gatfile'>
+               <h3 class="uploadfile"> Upload your Synopsis</h3>
+                  <div class="custom-file">
+                    <input type="file" name="snyopdoc" class="custom-file-input" id="snyopdoc">
+                      <label class="custom-file-label" for="snyopdoc"></label>
+                  </div>
+           </div>
+
+               <div class="form-group" id='gatfile'>
+               <h3 class="uploadfile"> Upload your Thesis</h3>
+                  <div class="custom-file">
+                    <input type="file" name="thesis" class="custom-file-input" id="thesis">
+                      <label class="custom-file-label" for="thesis"></label>
+                  </div>
+           </div>
+
+
+
+     <input id="submit" name="submit" class="hs-button primary large action-button next" type="submit" value="Submit">
+   
+     
+     <input type="button" name="btn" class="previous action-button" value="Go Back"  onclick="location.href='/neon/main.php';"/>
+
+
+
+   </fieldset>
+
+
+
+ </form>
+
+
+
+</html>

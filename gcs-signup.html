@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logo{
+	margin-top:0px;
+	margin-left: 130px;
+}
+
+
+/*form */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" style="background-color:#fff;">
+  
+    <img src="img/flex-logo-blue.png" alt="logo" height="150" width="350" id="logo">
+	<h2 style="margin-left:300px; margin-top:40px; margin-bottom:40px; ">Sign up</h2>
+	
+	<form method="POST" action="gcs-register.php" style="max-width:500px;margin:auto" >
+		
+		<div class="input-container">
+			<i class="fa fa-user icon"></i>
+			<input class="input-field" type="text" placeholder="Full name" name="fullname">
+		</div>
+		
+		<div class="input-container">
+			<i class="fa fa-map-marker icon"></i>
+			<select name="city" style="width:450px;">
+				<option value="islamabad">Islamabad</option>
+				<option value="lahore">Lahore</option>
+				<option value="karachi">Karachi</option>
+				<option value="faisalabad">Faisalabad</option>
+				<option value="peshawar">Peshawar</option>
+			</select>
+		</div>
+		
+		<div class="input-container">
+			<i class="fa fa-home icon"></i>
+			<input class="input-field" type="text" placeholder="Address" name="address">
+		</div>
+		
+		<div class="input-container">
+			<i class="fa fa-address-card-o icon"></i>
+			<input class="input-field" type="text" placeholder="Username" name="username">
+		</div>
+	
+		
+		<div class="input-container">
+			<i class="fa fa-envelope-open-o icon"></i>
+			<input class="input-field" type="email" placeholder="E-mail" name="email">
+		</div>
+  
+		<div class="input-container">
+			<i class="fa fa-key icon"></i>
+			<input class="input-field" type="password" placeholder="Password" name="password">
+		</div>
+		
+		<div class="input-container">
+			<i class="fa fa-key icon"></i>
+			<input class="input-field" type="password" placeholder="Confirm" name="confirm">
+		</div>
+		
+		<button type="submit" name="submit"class="btn">Register</button>
+	</form>
+
+  
+  <center> <h3>Developed By:</h3>
+    <h4><a href="team.html">Team Recluze</a></h4>  
+  </center>
+
+  </div>
+  
+    
+  
+  
+  <div class="column" style="background-color:#fff;">
+        <img src="img/bg-5.jpg" alt="bg-image" height="800" width="745" style="margin-top:-20px;">
+
+  </div>
+</div>
+
+</body>
+</html>
